@@ -13,10 +13,10 @@ const app = express()
 // });
 
 app.get('/estudiantes', function (request, response) {
-    response.send('Hola Mundo!')
+    response.send('Hola Mundooo!')
 })
 
-app.post('/estados', function (request, response) {
+app.get('/estados', function (request, response) {
     response.send('Tarea Finalizada')
 })
 // starts a simple http server locally on port 3000
@@ -30,4 +30,4 @@ app.listen(8004, function(){
 })
 
 
-console.log("hola mundo!")
+console.log("hola mundooo!")
