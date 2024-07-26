@@ -16,8 +16,9 @@
     "url": "https://github.com/jhnlxndrg-cepav/servidor-web-fundacioncepav/issues"
   },
   "homepage": "https://github.com/jhnlxndrg-cepav/servidor-web-fundacioncepav#readme",
+  "description": "",
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "description": ""
+  }
+
 }
