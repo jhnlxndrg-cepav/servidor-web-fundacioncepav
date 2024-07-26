@@ -16,6 +16,10 @@ app.get('/estudiantes', function (request, response) {
     response.send('Hola Mundo!')
 })
 
+app.get('/cursos', function (request, response ) {
+    response.send('¡Estos son nuestros cursos!')
+})
+
 app.get('/nombres', function (request, response) {
     response.send('No`mbre,  aveces soy una cosa pero barbara!')
 })
