@@ -13,7 +13,7 @@ const app = express()
 // });
 
 app.get('/estudiantes', function (request, response) {
-    response.send('Hola Mundooo!')
+    response.send('Hola Mundo!')
 })
 
 app.get('/estados', function (request, response) {
@@ -30,4 +30,4 @@ app.listen(8004, function(){
 })
 
 
-console.log("hola mundooo!")
+console.log("hola mundo!")
